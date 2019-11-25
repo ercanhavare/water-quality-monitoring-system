@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ad6e6ec8-158b-45f5-bae8-059065f4343d" name="alagadi.site" url="http://134.209.254.64">
+        <fileTransfer host="134.209.254.64" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/html/alagadi-turtle" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

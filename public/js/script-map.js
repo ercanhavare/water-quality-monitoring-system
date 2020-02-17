@@ -22,7 +22,7 @@ $(document).ready(function () {
         // console.log(latval, lngval);
 
         myLatLng = new google.maps.LatLng({lat: parseFloat(latVal), lng: parseFloat(lngVal)});
-        createMap(myLatLng)
+        createMap(myLatLng);
         /*nearbySearch(myLatLng, "school");*/
         searchTurtles(parseFloat(latVal), parseFloat(lngVal))
     }

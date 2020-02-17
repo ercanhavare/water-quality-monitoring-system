@@ -97,6 +97,6 @@
         </div>
     </div>
     <div class="copyright_bar text-center">
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+        Copyright &copy; {{\Carbon\Carbon::now()->year}}
         All rights reserved | <a href="https://alagadi.site" target="_blank">Alagadi Turtle</a></div>
 </footer>

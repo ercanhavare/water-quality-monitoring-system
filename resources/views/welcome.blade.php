@@ -139,7 +139,7 @@
 
 @section('js')
     <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv8puKtkXtJrpvC7k4ZjWWzhDvUyZUbO8&libraries=places">
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOVJdHyqZg25XTg7PvZAkYl2qhY9XSrJ4&libraries=places">
     </script>
 
     <script type="text/javascript" src="{{url('js/script-map.js')}}"></script>
